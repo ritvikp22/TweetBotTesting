@@ -1,10 +1,10 @@
 import tweepy
 
 # API and Tokens from Twitter Developer
-api_key = 'erTHMRjhyCS7Y9cori61BFgqp'
-api_secret = 'DnlnPVULx4Z1Ph4LBJ6h33sjWgbOkGmkWyMScCRuasI7ny1yNR'
-token_key = '1079439987395842049-pRZbnS4hCLJmrqHEKsmMlUpbnil9VB'
-token_secret = 'UuOdtFSo4n40v1mdkWXMeb1EigQdVHeHg3kCwx67lZqJo'
+api_key = ''
+api_secret = ''
+token_key = ''
+token_secret = ''
 
 auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(token_key, token_secret)
